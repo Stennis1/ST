@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    box-shadow: 0 4px 2px -2px gray;
+  }
+  
+  .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+  }
+  
+  footer p, footer ul {
+    margin: 0;
+    color: #6c757d;
+  }
+  
