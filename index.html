@@ -4,36 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Solar Taxi</title>
-    <link rel="icon" href="./static files/image-removebg-preview.png" type="image/png">
-    
+    <link rel="icon" href="./images/logo.png" type="image/png">
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"> 
-    
+    <link rel="stylesheet" href="./styles.css">
+
 </head>
 <body>
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-            <a class="navbar-brand" href="#">Logo</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- Logo -->
+            <a class="navbar-brand" href="./index.html"><img class="logo" src="./images/logo.png" alt="Logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./services.html">Services</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Careers</a></li>
+                </ul>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="btn-signin" href="#">Sign In</a></li>
+                    <li class="nav-item"><a class="btn-signup" href="#">Sign Up</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-
+ 
     <!-- Hero Section -->
     <section class="hero text-center bg-light py-5">
         <div class="container">
-            <h1 class="display-4">Welcome to Our Store</h1>
+            <h1 class="display-4"> Welcome to our EV ecosytem</h1>
             <p class="lead">The best place to buy cars, bikes, and accessories</p>
             <a href="#" class="btn btn-primary">Shop Now</a>
         </div>
@@ -47,9 +56,9 @@
                 <!-- Product 1 -->
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="car1.jpg" class="card-img-top" alt="Car 1">
+                        <img src="./images/redcar.png" class="card-img-top" alt="Xpeng GS50i Smart ">
                         <div class="card-body">
-                            <h5 class="card-title">Car Model 1</h5>
+                            <h5 class="card-title">Xpeng GS50i Smart</h5>
                             <p class="card-text">High-performance car with luxurious features.</p>
                             <a href="#" class="btn btn-outline-primary">View Details</a>
                         </div>
@@ -58,9 +67,9 @@
                 <!-- Product 2 -->
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="car2.jpg" class="card-img-top" alt="Car 2">
+                        <img src="./images/greencar.png" class="card-img-top" alt="Car 2">
                         <div class="card-body">
-                            <h5 class="card-title">Car Model 2</h5>
+                            <h5 class="card-title">Cherry Tiggo 3XE</h5>
                             <p class="card-text">Stylish and reliable with top-notch safety features.</p>
                             <a href="#" class="btn btn-outline-primary">View Details</a>
                         </div>
@@ -69,9 +78,9 @@
                 <!-- Product 3 -->
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="bike1.jpg" class="card-img-top" alt="Bike 1">
+                        <img src="./images/redbike.png" class="card-img-top" alt="Bike 1">
                         <div class="card-body">
-                            <h5 class="card-title">Motorbike Model 1</h5>
+                            <h5 class="card-title">Electric Motorbike</h5>
                             <p class="card-text">Compact design and high fuel efficiency.</p>
                             <a href="#" class="btn btn-outline-primary">View Details</a>
                         </div>
@@ -82,7 +91,7 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-dark text-white py-4">
+    <footer class="footnote">
         <div class="container text-center">
             <p>&copy; 2024 Solar Taxi. All Rights Reserved.</p>
             <a href="#" class="text-white">Privacy Policy</a>
