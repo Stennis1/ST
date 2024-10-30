@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Solar Taxi | About</title>
-  <link rel="icon" href="./images/logo1.png" type="image/png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar Taxi</title>
+    <link rel="icon" href="./static files/images/logo.png" type="image/png">
 
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="./static files/stylesheets/styles.css">
+
 </head>
 <body>
 
@@ -16,7 +17,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
             <!-- Logo -->
-            <a class="navbar-brand" href="./index.html"><img class="logo" src="./images/logo.png" alt="Logo"></a>
+            <a class="navbar-brand" href="./index.html"><img class="logo" src="./static files/images/logo.png" alt="Logo"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -37,18 +38,134 @@
             </div>
         </div>
     </nav>
+    
+  <!-- About Us Section -->
+    <section class="about-section text-center py-5">
+        <div class="container">    
+            <h1 class="mb-5">About Us</h1>
+            <h3>Vision</h3>
+            <p class="text-muted lead mb-5">Solar Taxi is an enterprise to be the largest EV company in Africa.</p>
 
-  <!-- Services Section -->
+            <h3 class="mb-4">Mission</h3>
+            <p class="text-muted lead mb-4">We seek to accelerate Ghana towards green and affordable transportation services by 
+                leveraging the energy from the sun and innovations from the shared economy. 
+                We hope to reduce carbon emissions and the cost of delivery and transport services 
+                to individual and businesses across the country through our values 
+                (Gender Empowerment, Respect & Teamwork, Service Excellence, Innovation).</p>
+        </div>
+    </section>
 
+    <!-- Management Team Section -->
+    <section class="management-team-section text-center py-5">
+        <h5 class="mb-3">Our Management Team</h5>
+        <p class="mb-5 lead text-muted">Meet our visionary leaders who steer Solar Taxi towards its mission.</p>
+        
+        <!-- Profile cards of Management Team -->
+        <div class="row">
+            <!-- Profile Of Chief Business Officer -->
+             <div class="col-md-2">
+                <div class="card">
+                    <img src="./static files/images/m-team/cbo.png" class="card-img-top" 
+                    alt="Chief Business officer">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Chief Business Officer</h5>
+                        <p class="card-subtitle">Business Department</p>
+                        <p class="card-body lead">Samuel Osei-Akoto</p>
+                    </div>
+                </div>
+             </div>
 
+            <!-- Profile of Chief Operating Officer -->
+             <div class="col-md-2">
+                <div class="card">
+                    <img src="./static files/images/m-team/coo.png" class="card-img-top" 
+                    alt="Chief Operating Officer">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Chief Operating Officer</h5>
+                        <p class="card-subtitle">Operations Department</p>
+                        <p class="card-body lead">Emmanuel Agyapong</p>
+                    </div>
+                </div>
+             </div>
+            
+            <!-- Profile of Manager - Wote Africa -->
+             <div class="col-md-2">
+                <div class="card">
+                    <img src="./static files/images/m-team/wote.png" alt="Wote Manager" 
+                    class="card-img-top">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Manager</h5>
+                        <p class="card-subtitle">Wote Africa</p>
+                        <p class="card-body lead">Gilbert Sefa Nuwordu</p>
+                    </div> 
+                </div>
+             </div>
 
+            <!-- Profile - Chief of Staff -->
+             <div class="col-md-2">
+                <div class="card">
+                    <img src="./static files/images/m-team/cos.png" class="card-img-top" 
+                    alt="Chief of Staff">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Chief of Staff</h5>
+                        <p class="card-subtitle">HR Department</p>
+                        <p class="card-body lead">Givens Minta Manu</p>
+                    </div>
+                </div>
+             </div>
+            
+        <div class="row mt-5">
+            <!-- Profile of Chief Technology Officer -->
+              <div class="col-md-2">
+                <div class="card">
+                    <img src="./static files/images/m-team/cto.png" class="card-img-top" 
+                    alt="Chief Technology Officer">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Chief Technology Officer</h5>
+                        <p class="card-subtitle">Software Engineering Department</p>
+                        <p class="card-body lead">Jemima Adjanor</p>
+                    </div>
+                </div>
+              </div>
+
+            <!-- Chief PR Officer  -->
+              <div class="col-md-2">
+                <div class="card">
+                    <img src="./static files/images/m-team/cpr.png" class="card-img-top" 
+                    alt="Chief PR Officer">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Chief PR Officer</h5>
+                        <p class="card-subtitle">Creative Department</p>
+                        <p class="card-body lead">Edith Afia Antwiwaa</p>
+                    </div>
+                </div>
+              </div>
+
+            <!-- Chief Finance Officer -->
+              <div class="col-md-2">
+                <div class="card">
+                    <img src="./static files/images/m-team/cfo.png" class="card-img-top" 
+                    alt="Chief Finance Officer">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Chief Finance Officer</h5>
+                        <p class="card-subtitle">Finance Department</p>
+                        <p class="card-body">Aaron Owusu Ansah</p>
+                    </div> 
+                </div>
+              </div>
+        </div>
+
+        </div>
+    </div>
+    </section>
+
+    <button href="#" class="mt-5 text-center py-2 btn btn-primary">Get In Touch</button>
 
     <!-- Footer -->
     <footer class="footnote">
         <div class="container text-center">
             <p>&copy; 2024 Solar Taxi. All Rights Reserved.</p>
-            <a href="#" class="text-white">Privacy Policy</a>
-        </div>
+            <a href="./static files/other_pages/privacy.html" class="text-white">Privacy Policy</a>
     </footer>
 
     <!-- Bootstrap JS -->

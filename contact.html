@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Solar Taxi | Contact</title>
-  <link rel="icon" href="./images/logo1.png" type="image/png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar Taxi</title>
+    <link rel="icon" href="./static files/images/logo.png" type="image/png">
 
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="./static files/stylesheets/styles.css">
+
 </head>
 <body>
 
@@ -16,7 +17,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
             <!-- Logo -->
-            <a class="navbar-brand" href="./index.html"><img class="logo" src="./images/logo.png" alt="Logo"></a>
+            <a class="navbar-brand" href="./index.html"><img class="logo" src="./static files/images/logo.png" alt="Logo"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -38,16 +39,80 @@
         </div>
     </nav>
 
-  <!-- Services Section -->
+
+  <!-- Contact Us Section -->
+    <section class="contact-us py-5">
+        <div class="container">
+            <div class="text-center mb-4">
+                <h2>Contact Us</h2>
+                <p>Have any questions? We'd love to hear from you.</p>
+            </div>
+        </div>
+
+        <!-- Contact Information -->
+        <div class="row">
+            <div class="col-md-6">                
+                <p>Hear from our Team!</p>
+                <p>Accra Office:<a href="tel:+233 30 296 2256 "> +233 30 296 2256 </a></p>
+                <p>Accra Office:<a href="tel:+233 30 296 2256 "> +233 30 296 2256 </a></p>
+                <p>Address Details</p>
+                <p>Accra Office: HQ54+6JF Jonkobri Rd</p>
+                <p>Kumasi Office: Jaimaca Office, Ejisu</p>
+            </div>
+
+            <img src="./static files/images/ladyeng.png" alt="staff" class="img-fluid mt-3">
+            <img src="./static files/images/ghmap.png" alt="Ghana-map" class="img-fluid mt-3">
+        </div>
+
+        <!-- Contact Form -->
+         <div class="col-md-6">
+            <div class="contact-form bg-light p-4 rounded">
+                <h4>Can't find what you are looking for?</h4>
+                <p>Get in touch with us!</p>
+
+                <div class="mb-3">
+                    <label for="firstname" class="form-label">First Name</label>
+                    <input type="text" id="firstname" class="form-control" placeholder="Enter your First name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="lastname" class="form-label">Last Name</label>
+                    <input type="text" id="secondname" class="form-control" placeholder="Enter your Last name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" id="email" class="form-control" placeholder="Enter your email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea rows="4" id="message" class="form-control" placeholder="Type your message" required></textarea>
+                </div>
+
+                <span><button class="btn btn-primary">Submit</button></span>
+            </div>    
+         </div>
 
 
+        <div class="divider"></div>
+
+        <!-- Map and Address -->
+        <div class="row mt-5">
+            <div class="contact-address">
+                <a href="https://maps.app.goo.gl/ddGaZx55z5QZ7DbVA" class="stmap" target="_blank"><img src="./static files/images/stmap.png"></a> 
+                <h5>Solar Taxi - Headquarters</h5>
+                <p>HQ54+6JF Jonkobri Road</p>
+                <p>Accra Ghana</p>
+                <p><a href="https://maps.app.goo.gl/ddGaZx55z5QZ7DbVA" class="googlemap">View on Google Maps</a></p>
+                <p>Email: <a href="email: enquiry@solartaxi.co" target="_blank" class="email">enquiry@solartaxi.co</a></p>            
+            </div>
+        </div>            
+    </section>
 
   
     <!-- Footer -->
     <footer class="footnote">
         <div class="container text-center">
             <p>&copy; 2024 Solar Taxi. All Rights Reserved.</p>
-            <a href="#" class="text-white">Privacy Policy</a>
+            <a href="./static files/other_pages/privacy.html" class="text-white">Privacy Policy</a>
         </div>
     </footer>
 
