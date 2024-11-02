@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"> 
     <link rel="stylesheet" href="./static files/stylesheets/styles.css">
-
+    <link rel="stylesheet" href="/static files/stylesheets/contact.css">
 </head>
 <body>
 
@@ -43,74 +43,87 @@
   <!-- Contact Us Section -->
     <section class="contact-us py-5">
         <div class="container">
-            <div class="text-center mb-4">
+            <div class="contact-us-sec text-center mb-4">
                 <h2>Contact Us</h2>
                 <p>Have any questions? We'd love to hear from you.</p>
             </div>
         </div>
 
         <!-- Contact Information -->
-        <div class="row">
+        <div class="contact-info row">
             <div class="col-md-6">                
-                <p>Hear from our Team!</p>
-                <p>Accra Office:<a href="tel:+233 30 296 2256 "> +233 30 296 2256 </a></p>
-                <p>Accra Office:<a href="tel:+233 30 296 2256 "> +233 30 296 2256 </a></p>
-                <p>Address Details</p>
+                <h5>Hear from our Team!</h5>
+                <p>Accra Office: <a href="tel:+233 30 296 2256"> (+233) 30 296 2256 </a></p>
+                <p>Kumasi Office: <a href="tel:+233 53 310 6449"> (+233) 53 310 6449 </a></p>
+                <p class="contact-us-title">Address Details</p>
                 <p>Accra Office: HQ54+6JF Jonkobri Rd</p>
                 <p>Kumasi Office: Jaimaca Office, Ejisu</p>
             </div>
 
-            <img src="./static files/images/ladyeng.png" alt="staff" class="img-fluid mt-3">
-            <img src="./static files/images/ghmap.png" alt="Ghana-map" class="img-fluid mt-3">
+            <img src="./static files/images/ladyeng.png" alt="staff" class="contact-img">
+            <img src="./static files/images/ghmap.png" alt="Ghana-map" class="contact-img">
         </div>
 
         <!-- Contact Form -->
-         <div class="col-md-6">
-            <div class="contact-form bg-light p-4 rounded">
-                <h4>Can't find what you are looking for?</h4>
-                <p>Get in touch with us!</p>
+        <div class="contact-form col-md-8">
+            <div class="card py-4">
+                <div class="contact-form bg-light p-4 rounded">
+                    <h4 class="text-center card-title">Can't find what you are looking for?</h4>
+                    <p class="text-center card-title">Get in touch with us!</p>
+                    
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <label for="firstname" class="form-label">First Name</label>
+                            <input type="text" id="firstname" class="form-control" placeholder="Enter your First name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="lastname" class="form-label">Last Name</label>
+                            <input type="text" id="secondname" class="form-control" placeholder="Enter your Last name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" class="form-control" placeholder="Enter your email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea rows="4" id="message" class="form-control" placeholder="Type your message" required></textarea>
+                        </div>
+                    </div>
 
-                <div class="mb-3">
-                    <label for="firstname" class="form-label">First Name</label>
-                    <input type="text" id="firstname" class="form-control" placeholder="Enter your First name" required>
-                </div>
-                <div class="mb-3">
-                    <label for="lastname" class="form-label">Last Name</label>
-                    <input type="text" id="secondname" class="form-control" placeholder="Enter your Last name" required>
-                </div>
-                <div class="mb-3">
-                    <label for="email" class="form-label">Email</label>
-                    <input type="email" id="email" class="form-control" placeholder="Enter your email" required>
-                </div>
-                <div class="mb-3">
-                    <label for="message" class="form-label">Message</label>
-                    <textarea rows="4" id="message" class="form-control" placeholder="Type your message" required></textarea>
-                </div>
-
-                <span><button class="btn btn-primary">Submit</button></span>
-            </div>    
-         </div>
-
-
-        <div class="divider"></div>
+                    <span><button class="btn btn-primary">Submit</button></span>
+                </div>    
+            </div>
+        </div>
 
         <!-- Map and Address -->
         <div class="row mt-5">
-            <div class="contact-address">
-                <a href="https://maps.app.goo.gl/ddGaZx55z5QZ7DbVA" class="stmap" target="_blank"><img src="./static files/images/stmap.png"></a> 
-                <h5>Solar Taxi - Headquarters</h5>
-                <p>HQ54+6JF Jonkobri Road</p>
-                <p>Accra Ghana</p>
-                <p><a href="https://maps.app.goo.gl/ddGaZx55z5QZ7DbVA" class="googlemap">View on Google Maps</a></p>
-                <p>Email: <a href="email: enquiry@solartaxi.co" target="_blank" class="email">enquiry@solartaxi.co</a></p>            
-            </div>
-        </div>            
+            <div class="contact-container">
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.1114734924054!2d-0.2430608!3d5.5504884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf971b090557e9%3A0xa60702c5e8c01e90!2sSolarTaxi!5e0!3m2!1sen!2sgh!4v1730549361464!5m2!1sen!2sgh" 
+                    width="350" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="contact-con-info">
+                    <h3>Solar Taxi - Headquarters</h3>
+                    <p>HQ54+6JF Jonkobri Road</p>
+                    <p>Accra - Ghana</p>
+                    <p>Office: <a href="tel:+233 30 296 2256">(+233) 30 296 2256</a></p>
+                    <p>Email: <a href="mailto:enquiry@solartaxi.co" target="_blank" class="email">enquiry@solartaxi.co</a></p>
+                    <p><a href="https://maps.app.goo.gl/ddGaZx55z5QZ7DbVA" class="googlemap">View on Google Maps</a></p>
+                </div>
+            </div>    
+        </div>
+        
+        <div class="footer">
+            <div class="divider"></div>
+            <p>We value your privacy!</p>
+            <p><a href="/static files/other_pages/privacy.html">Privacy Policy</a></p>
+        </div>
     </section>
 
   
     <!-- Footer -->
     <footer class="footnote">
-        <div class="container text-center">
+        <div class="container">
             <p>&copy; 2024 Solar Taxi. All Rights Reserved.</p>
             <a href="./static files/other_pages/privacy.html" class="text-white">Privacy Policy</a>
         </div>
