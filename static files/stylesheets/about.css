@@ -1,0 +1,57 @@
+@media(max-width:768px){
+    .management-team {
+        max-width: 500px;
+        flex-direction: column;
+    }
+
+    .mg-team-member {        
+        margin-bottom: 30px;
+    }
+}
+
+h1 {
+    font-weight: bold;
+    font-family: arial, sans-serif;
+    font-size: 50px;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 20px;
+    font-family: Georgia, Times, serif;
+}
+
+.about-us-intro p{
+    font-size: 17px;
+    font-family: cursive, arial, sans-serif;
+    font-weight: lighter;
+}
+
+.values {
+    font-size: 15px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.hr-with-text {
+    flex: 1;
+    width: 10%;
+    margin: 0 auto;
+    border: none;
+    border-top: 9px solid orange;
+}
+
+.mg-leaders {
+    font-size: 17px;
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.mg-tm-title {
+    font-weight: 600;
+    font-family: Helvetica, sans-serif;
+}
+
+.management-team {
+    margin: auto 0;
+}
