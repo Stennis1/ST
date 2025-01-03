@@ -1,0 +1,15 @@
+
+.div-bar {
+    border: none;
+    color: #111;
+    border-top: 50px;
+    flex: 1;
+}
+
+.contact-intro {
+
+}
+
+.contact-intro h2 {
+    font-weight: bold;
+}
